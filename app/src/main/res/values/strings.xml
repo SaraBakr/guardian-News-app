@@ -1,0 +1,8 @@
+<resources>
+
+      <string name="app_name">NEWS</string>
+    <string name="no_news">you are not connected! try again</string>
+    <string name="title_activity_main2">books</string>
+     <string name="title_activity_economics">Sports</string>
+
+</resources>

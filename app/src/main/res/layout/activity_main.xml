@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ec530d"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="News"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ListView
+        android:id="@+id/list_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/no_connection_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#e94a00"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+
+</FrameLayout>
